@@ -135,12 +135,13 @@ margin-left:-15px;
   
 
 }
-.message {position:relative;
-  bottom:10px;
+.message {
+  position:relative;
+  bottom:px;
   background-color: #FF3E79; 
   width: 40px;
   height: 40px;
- 
+ vertical-align: middle;
   border-radius: 20px;
 }
 .profile {background: #FF3E79 url("img/profil.png") no-repeat 50% 50%;
@@ -168,7 +169,7 @@ border:none;}
 .leng {margin-left: 10px;
   margin-top: 50px;
 }
-.leng-link {font-family: TT Lakes;
+.leng-link {font-family: TT Lakes ;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;

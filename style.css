@@ -2,7 +2,7 @@ body{min-width:320px;
 height:1024px;
 margin:0;
 padding:0;
-
+font-family:  'TT Lakes';;
 
 }
 .conteiner {
@@ -112,12 +112,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: -0.2px;
-margin-left:-15px;
- padding:5px 20px; 
+margin-left: -15px;
+ padding:5px 15px;
 }
 .link:hover{border-left:4px solid #41F6D7;
      
- color:#7E7E82
+ color:#7E7E82;
+ 
 }
  
  @keyframes burgeropen {from{transform:translateX(-300px);}
@@ -127,37 +128,47 @@ margin-left:-15px;
   margin-left: 10px;
   
 }
-.phone {background: #FF3E79 url("img/phone.png") no-repeat 50% 50%;
-  width: 40px;
-  height: 40px;
- 
-  border-radius: 20px;
-  
-
-}
-.message {
-  position:relative;
-  bottom:px;
-  background-color: #FF3E79; 
+.phone {background-color: #FF3E79 ; 
   width: 40px;
   height: 40px;
  vertical-align: middle;
   border-radius: 20px;
+ 
+
 }
-.profile {background: #FF3E79 url("img/profil.png") no-repeat 50% 50%;
+
+.message {
+  background-color: #FF3E79; 
   width: 40px;
   height: 40px;
- 
+  vertical-align: middle;
   border-radius: 20px;
+  
+}
+.profile {background: #FF3E79 ;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 20px;
+ 
+
 }
 .mod{margin-left:10px;
 border:none;}
+img{vertical-align: middle;
+text-align: center;}
+svg{vertical-align: middle;
+  text-align: center;}
+.block-mail{margin-top: 10px;}
+.block-namber{margin-top: 10px;}
 .mail{margin-left: 10px;
   font-family: TT Lakes;
-  font-weight: 500;
+  font-weight:500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
+  text-decoration: none;
+ color:#1B1C21
   }
 .namber{margin-left:10px;
   font-family: TT Lakes;
@@ -165,15 +176,20 @@ border:none;}
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6px;
+ text-decoration: none;
+ color:#1B1C21
   }
 .leng {margin-left: 10px;
   margin-top: 50px;
+ 
 }
-.leng-link {font-family: TT Lakes ;
-  font-weight: 500;
+.leng-link {font-family: 'TT Lakes';
+  font-weight:500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
   text-decoration: none;
+  color:#1B1C21 ;
+  margin-left: 10px;
 }
 .leng-link:hover{color:#7E7E82}
